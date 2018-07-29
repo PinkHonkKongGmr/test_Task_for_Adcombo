@@ -1,0 +1,369 @@
+body
+{background: #f6edea;}
+header
+{
+position: relative;
+padding:12px;
+background: #8d5d7a;}
+
+.commonPrt
+{margin-top:40px;
+  margin-bottom: 80px;
+}
+
+.topprtr
+{height:auto;
+padding-top: 7px;
+padding-left:20%;
+}
+
+.pryamougolnik
+{
+padding-bottom: 8%;
+width:18%;
+background: #5a9ba9;}
+
+
+.topC
+{width: 74px;
+height:74px;
+background: white;
+display: inline-block;
+
+z-index:3;
+}
+
+.hedrSpn
+{padding-top: 30px;
+display: inline-block;
+width:auto;
+margin-right: 12px;
+margin-left: 12px;
+vertical-align: top;
+height: 50px;
+font-size: 18px;
+}
+
+.atc
+{
+width:400px;
+}
+
+
+.c1
+{right:240px;
+top:30px;}
+
+.c2
+{right:-310px;
+top:30px;
+}
+
+.c3
+{right:305px;
+top:170px;}
+
+.c4
+{right:-360px;
+top:170px;}
+
+.c5
+{right:230px;
+top:310px;}
+
+.c6
+{right:-310px;
+top:310px;}
+
+.parts
+{width:33%;
+
+
+  display: inline-block;
+}
+
+.middle
+{height: 400px;
+  width:400px;
+background: #5a9ba9;
+position: relative;}
+
+.container
+{
+display: inline-block;
+position: relative;
+  margin-left: 16.6%;
+min-height: 500px;
+
+
+}
+
+.prodsAndBut
+{width:59%;
+display: inline-block;
+padding-top: 20px;}
+
+.top
+{display: inline-block;
+  vertical-align: top;
+position: relative;
+background: #8ac49c;
+min-height:150px;
+width: 93.2%;
+margin-bottom: 20px;
+}
+
+.article
+{display: inline-block;
+width:60%;
+vertical-align: top;
+margin-left:10px;
+padding-bottom: 10px;
+}
+
+.article h2
+{margin-top: 10px;
+}
+
+.prod
+{margin-bottom:10px;
+WIDTH:45%;
+display: inline-block;
+vertical-align: top;
+height:auto;
+margin-right: 2.5%;
+}
+
+.circle
+{border-radius:50%;}
+
+.likes
+{display: inline-block;
+background: #8d5d7a;
+width:100px;
+position: absolute;
+height: 100%;
+right: 0;
+padding: 10px;
+padding-left: 30px;
+box-sizing: border-box;
+color:white;}
+
+.min
+{width:40px;height:40px;
+border: solid white 1px;
+text-align: center;
+padding-top: 10px;
+box-sizing: border-box;
+margin-top: 5px;}
+
+.topSpn
+{padding: 5px;}
+
+.sideBar
+{display: inline-block;
+  position:absolute;
+background: #8d5d7a;
+width:20.6%;
+height:100%;
+
+box-sizing: border-box;
+}
+
+@media (max-width: 1200px)
+ {
+   .likes
+   {width: auto;
+   display: block;
+ left: 0;
+
+position: inherit;
+background:#f6edea;
+padding: 0;
+color:#8d5d7a;
+font-weight: bold;}
+.lks
+{width:auto;
+display: inline-block;
+background: none;
+margin-right: 30%;}
+
+.article
+{width: 90%;
+box-sizing: border-box;}
+
+.min
+{display: inline-block;
+text-align: top;
+border:2px solid #8d5d7a;}
+
+.topSpn
+{padding-bottom: 10px;}
+
+
+
+.c1
+{right:160px;
+top:30px;}
+
+.c2
+{right:-210px;
+top:30px;
+}
+
+.c3
+{right:160px;
+top:170px;}
+
+.c4
+{right:-210px;
+top:170px;}
+
+.c5
+{right:160px;
+top:310px;}
+
+.c6
+{right:-210px;
+top:310px;}
+
+ }
+
+ @media (max-width: 1038px)
+ {
+   .container
+   {margin-left:8%;}
+   .prodsAndBut
+   {width:75%;}
+
+   .perprt
+   {width:20%;}
+
+   .atc
+   {width:350px;}
+
+
+   .c1
+   {right:210px;
+   top:30px;}
+
+   .c2
+   {right:-150px;
+   top:30px;
+   }
+
+   .c3
+   {right:210px;
+   top:170px;}
+
+   .c4
+   {right:-150px;
+   top:170px;}
+
+   .c5
+   {right:210px;
+   top:310px;}
+
+   .c6
+   {right:-150px;
+   top:310px;}
+
+ }
+
+ @media (min-width:760px) {
+
+   .atc
+   {position: absolute;}
+
+
+
+ }
+
+
+
+
+
+
+
+.but
+{padding-top: 118px;
+  display: inline-block;
+  width: 30%;
+  vertical-align:top;
+  margin-left: 40px;
+
+
+
+
+}
+
+.but button
+{width:96%;
+height:62px;
+font-size: 140%;
+text-transform: uppercase;
+border:none;
+border-radius: 10px;
+background: #8d5d7a;}
+
+.prod a
+{color:inherit;
+text-decoration: none;}
+
+
+
+.prod:hover ~ .but button { background: yellow;}
+ .prod:active ~ .but button { background: red;}
+
+
+.image
+{
+height: 180px;
+ background: #7ec29b;}
+
+
+
+footer
+{background: #f5f5f5;
+height:200px;
+color:#a8a8a8;
+text-align: center;
+padding-top: 100px;
+box-sizing: border-box;}
+
+
+@media (max-width: 760px)
+{
+  .container
+  {margin-left:4%;}
+  .prodsAndBut
+  {width:60%;}
+  .prod
+  {width:90%;}
+  .topSpn
+  {width:200px;}
+
+.sideBar
+{width:35%;}
+
+.middle
+{width:100px;
+height:100px;}
+
+.pryamougolnik
+{width:100%;
+height: 100px;}
+
+.perprt
+{display: none;
+}
+.hedrSpn
+{font-size: 14px;}
+
+.atc
+{width:295px;}
+
+.but
+{width:90%;
+margin-left:5px!important;}
+}
